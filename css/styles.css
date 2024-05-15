@@ -66,10 +66,50 @@
 
 .Descricao{
     margin-left: 10rem;
-    margin-right: 50px;
 }
 
 .Descricao h4{
-    
     margin-top: 0px;
+}
+
+.footer{
+    display: flex;
+}
+
+.Beneficios{
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+
+.Beneficios img{
+    width: 60px;
+    height: 60px;
+}
+
+.Beneficios div{
+    margin-left: 0rem;
+}
+
+.card-valor{
+    position: absolute;
+    top: 47rem;
+    margin-left: 46rem;
+    width: 35rem;
+    height: 11rem;
+    margin-top: 5rem;
+    border-style: inset;
+    border-color: black;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card-valor h3{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+.card-valor button{
+    border: none;
+    width: 24rem;
+    height: 4rem;
 }
