@@ -1,5 +1,8 @@
 :root {
     --color-cinza: #313131;
+    --color-black: rgb(0,0,0);
+    --color-bege: #cac7c7;
+    --color-fiap: #dc143c;
     --font-body: "Poppins", sans-serif;
 }
 
@@ -98,7 +101,7 @@
     height: 12rem;
     margin-top: 5rem;
     border-style: inset;
-    border-color: black;
+    border-color: var(--color-black);
     align-items: center;
     border-radius: 20px;
 }
@@ -111,13 +114,13 @@
 }
 
 .card-valor button{
-    background-color: #cac7c7;
+    background-color: var(--color-fiap);
     margin-left: 6rem;
     border: none;
     width: 20rem;
     height: 4rem;
     border-radius: 10px;
     font-size: 20px;
-    color: black;
+    color: var(--color-bege);
     font-weight: bold;
 }
