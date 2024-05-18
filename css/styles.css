@@ -95,11 +95,6 @@ body{
     
 }
 
-.side-img img{
-    max-width: 250px;
-    max-height: 100px;
-}
-
 /* PART 3 */
 
 .description{
@@ -179,11 +174,12 @@ a {
     background-color: var(--color-pink);
     text-decoration: none;
     transition: color 0.5s;
-    padding: 0 10px;
+    padding: 10px 10px;
     margin-top: 10px;
     border-radius: 5px;
+    text-align: center;
+    justify-content: center;
 }
-
 
 /* responsivo */
 
